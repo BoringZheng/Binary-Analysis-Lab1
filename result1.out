@@ -1,0 +1,75 @@
+File   : ./a.out
+Type   : ELF
+Arch   : x86-64, 64-bit
+Entry  : 0x0000000000001080
+
+[Sections]
+  .interp            vma=0x0000000000000318 size=28       type=DATA
+  .note.gnu.property vma=0x0000000000000338 size=48       type=DATA
+  .note.gnu.build-id vma=0x0000000000000368 size=36       type=DATA
+  .note.ABI-tag      vma=0x000000000000038c size=32       type=DATA
+  .gnu.hash          vma=0x00000000000003b0 size=36       type=DATA
+  .dynsym            vma=0x00000000000003d8 size=192      type=DATA
+  .dynstr            vma=0x0000000000000498 size=148      type=DATA
+  .gnu.version       vma=0x000000000000052c size=16       type=DATA
+  .gnu.version_r     vma=0x0000000000000540 size=48       type=DATA
+  .rela.dyn          vma=0x0000000000000570 size=192      type=DATA
+  .rela.plt          vma=0x0000000000000630 size=48       type=DATA
+  .init              vma=0x0000000000001000 size=27       type=CODE
+  .plt               vma=0x0000000000001020 size=48       type=CODE
+  .plt.got           vma=0x0000000000001050 size=16       type=CODE
+  .plt.sec           vma=0x0000000000001060 size=32       type=CODE
+  .text              vma=0x0000000000001080 size=330      type=CODE
+  .fini              vma=0x00000000000011cc size=13       type=CODE
+  .rodata            vma=0x0000000000002000 size=66       type=DATA
+  .eh_frame_hdr      vma=0x0000000000002044 size=60       type=DATA
+  .eh_frame          vma=0x0000000000002080 size=204      type=DATA
+  .init_array        vma=0x0000000000003db0 size=8        type=DATA
+  .fini_array        vma=0x0000000000003db8 size=8        type=DATA
+  .dynamic           vma=0x0000000000003dc0 size=496      type=DATA
+  .got               vma=0x0000000000003fb0 size=80       type=DATA
+  .data              vma=0x0000000000004000 size=24       type=DATA
+  .bss               vma=0x0000000000004018 size=8        type=NONE
+  .comment           vma=0x0000000000000000 size=43       type=NONE
+  .debug_aranges     vma=0x0000000000000000 size=48       type=NONE
+  .debug_info        vma=0x0000000000000000 size=313      type=NONE
+  .debug_abbrev      vma=0x0000000000000000 size=219      type=NONE
+  .debug_line        vma=0x0000000000000000 size=110      type=NONE
+  .debug_str         vma=0x0000000000000000 size=260      type=NONE
+  .debug_line_str    vma=0x0000000000000000 size=70       type=NONE
+
+[Symbols]
+  __abi_tag                      OBJECT LOCAL  addr=0x000000000000038c
+  deregister_tm_clones           FUNC   LOCAL  addr=0x00000000000010b0
+  register_tm_clones             FUNC   LOCAL  addr=0x00000000000010e0
+  __do_global_dtors_aux          FUNC   LOCAL  addr=0x0000000000001120
+  completed.0                    OBJECT LOCAL  addr=0x0000000000004018
+  __do_global_dtors_aux_fini_array_entry OBJECT LOCAL  addr=0x0000000000003db8
+  frame_dummy                    FUNC   LOCAL  addr=0x0000000000001160
+  __frame_dummy_init_array_entry OBJECT LOCAL  addr=0x0000000000003db0
+  local_static                   OBJECT LOCAL  addr=0x0000000000004014
+  __FRAME_END__                  OBJECT LOCAL  addr=0x0000000000002148
+  _DYNAMIC                       OBJECT LOCAL  addr=0x0000000000003dc0
+  _GLOBAL_OFFSET_TABLE_          OBJECT LOCAL  addr=0x0000000000003fb0
+  message                        OBJECT GLOBAL addr=0x0000000000002010
+  __libc_start_main@GLIBC_2.34   FUNC          addr=0x0000000000000000
+  add                            FUNC   GLOBAL addr=0x0000000000001169
+  puts@GLIBC_2.2.5               FUNC          addr=0x0000000000000000
+  _fini                          FUNC   GLOBAL addr=0x00000000000011cc
+  printf@GLIBC_2.2.5             FUNC          addr=0x0000000000000000
+  global_var                     OBJECT GLOBAL addr=0x0000000000004010
+  __dso_handle                   OBJECT GLOBAL addr=0x0000000000004008
+  _IO_stdin_used                 OBJECT GLOBAL addr=0x0000000000002000
+  _start                         FUNC   GLOBAL addr=0x0000000000001080
+  main                           FUNC   GLOBAL addr=0x0000000000001181
+  __TMC_END__                    OBJECT GLOBAL addr=0x0000000000004018
+  __cxa_finalize@GLIBC_2.2.5     FUNC   WEAK   addr=0x0000000000000000
+  _init                          FUNC   GLOBAL addr=0x0000000000001000
+  __libc_start_main              FUNC          addr=0x0000000000000000
+  puts                           FUNC          addr=0x0000000000000000
+  printf                         FUNC          addr=0x0000000000000000
+  __cxa_finalize                 FUNC   WEAK   addr=0x0000000000000000
+
+[Dump .data]
+00004000  00 00 00 00 00 00 00 00 08 40 00 00 00 00 00 00  |.........@......|
+00004010  2a 00 00 00 07 00 00 00                          |*.......|
